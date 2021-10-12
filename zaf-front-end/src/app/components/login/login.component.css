@@ -1,0 +1,15 @@
+.box mat-card-title{
+    margin-left: 70%;
+}
+
+.login-wrapper{
+    
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    
+    margin-top: 5%;
+    box-sizing: border-box;
+    
+}
+

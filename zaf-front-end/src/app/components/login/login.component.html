@@ -1,1 +1,28 @@
-<p>login works!</p>
+<div class="login-wrapper container" fxLayout="row" fxLayoutAlign="center center">
+
+  <mat-card class="box">
+    <mat-card-header>
+      <mat-card-title class="title">Login</mat-card-title>
+    </mat-card-header>
+
+    <form class="example-form">
+      <mat-card-content>
+        <mat-form-field class="example-full-width">
+          <input matInput placeholder="Username">
+        </mat-form-field>
+        <br>
+        <mat-form-field class="example-full-width">
+          <input matInput placeholder="Password">
+        </mat-form-field>
+        <br>
+        <small>
+          Don't Have an Account? 
+          <br>
+          <a routerlink="/register">Register</a>
+        </small>
+      </mat-card-content>
+      <button mat-stroked-button color="accent" class="btn-block">Login</button>
+    </form>
+  </mat-card>
+
+</div>
