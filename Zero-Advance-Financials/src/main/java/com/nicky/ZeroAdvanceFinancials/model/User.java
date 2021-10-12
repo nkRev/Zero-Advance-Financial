@@ -18,7 +18,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @Table(uniqueConstraints = {
     @UniqueConstraint(name="email_unique", columnNames = "email"),
-    @UniqueConstraint(name="username_)unique", columnNames = "username")
+    @UniqueConstraint(name="username_unique", columnNames = "username")
 })
 public class User {
     @Id
@@ -30,6 +30,6 @@ public class User {
 
     @Column(nullable = false)
     private String password;
-    
+
     private boolean isLoggedIn;
 }

@@ -21,7 +21,7 @@ public class Transaction {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private long accountNumber;
-    
+
     private double amt;
     private String txType;
     private Date date;

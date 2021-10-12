@@ -20,7 +20,7 @@ public class Account {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private long accountNumber;
-    
+
     private long cId;
     private double balance, openingBalance, interest, depositAmt, withdrawAmt;
     private Date date;
