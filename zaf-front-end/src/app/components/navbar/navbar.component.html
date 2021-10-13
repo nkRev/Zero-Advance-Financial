@@ -2,7 +2,7 @@
 <mdb-navbar SideClass="navbar navbar-expand-lg navbar-dark unique-color" [containerInside]="false">
 
   <!-- Navbar brand -->
-  <mdb-navbar-brand><a class="navbar-brand" href="#">Navbar</a></mdb-navbar-brand>
+  <mdb-navbar-brand><a class="navbar-brand" href="#">Zero Advance Financials</a></mdb-navbar-brand>
 
   <!-- Collapsible content -->
   <links>
@@ -13,7 +13,7 @@
         <a class="nav-link waves-light" mdbWavesEffect>Home<span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link waves-light" mdbWavesEffect>Features</a>
+        <a class="nav-link waves-light" mdbWavesEffect>Contact</a>
       </li>
       <li class="nav-item">
         <a class="nav-link waves-light" mdbWavesEffect>Pricing</a>
@@ -28,7 +28,8 @@
           <a class="dropdown-item waves-light" mdbWavesEffect href="#">Another action</a>
           <a class="dropdown-item waves-light" mdbWavesEffect href="#">Something else here</a>
           <div class="divider dropdown-divider"></div>
-          <a class="dropdown-item waves-light" mdbWavesEffect href="#">Separated link</a>
+          <!-- <a *ngIf="!loginService.logged" routerlink="/login" routerLinkActive="router-link-active"  class="dropdown-item waves-light" mdbWavesEffect href="#">Login</a>
+          <a *ngIf="loginService.logged" routerlink ></a> -->
         </div>
       </li>
 
@@ -38,12 +39,12 @@
     <ul class="navbar-nav ml-auto nav-flex-icons">
       <li class="nav-item">
         <a class="nav-link">
-          <mdb-icon fab icon="twitter"></mdb-icon>
+          Personal
         </a>
       </li>
       <li class="nav-item">
         <a class="nav-link">
-          <mdb-icon fab icon="google-plus"></mdb-icon>
+            Small Business
         </a>
       </li>
       <li class="nav-item">
