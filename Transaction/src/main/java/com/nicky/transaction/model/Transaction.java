@@ -1,4 +1,4 @@
-package com.nicky.ZeroAdvanceFinancials.model;
+package com.nicky.transaction.model;
 
 import java.sql.Date;
 

@@ -1,4 +1,4 @@
-package com.nicky.ZeroAdvanceFinancials.model;
+package com.nicky.user.model;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
