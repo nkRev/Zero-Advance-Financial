@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Customer/Customer.iml" filepath="$PROJECT_DIR$/Customer/Customer.iml" />
       <module fileurl="file://$PROJECT_DIR$/Transaction/Transaction.iml" filepath="$PROJECT_DIR$/Transaction/Transaction.iml" />
       <module fileurl="file://$PROJECT_DIR$/User/User.iml" filepath="$PROJECT_DIR$/User/User.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Zero-Advance-Financial.iml" filepath="$PROJECT_DIR$/.idea/Zero-Advance-Financial.iml" />
