@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.nicky</groupId>
-    <artifactId>Eureka</artifactId>
+    <artifactId>Gateway</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>Eureka</name>
-    <description>Eureka</description>
+    <name>Gateway</name>
+    <description>Gateway</description>
     <properties>
         <java.version>16</java.version>
         <spring-cloud.version>2020.0.4</spring-cloud.version>
@@ -20,7 +20,11 @@
     <dependencies>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
+            <artifactId>spring-cloud-starter-gateway</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
         </dependency>
 
         <dependency>
