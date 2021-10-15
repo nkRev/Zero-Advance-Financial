@@ -10,8 +10,8 @@
         <module name="Zero-Advance-Financials" />
         <module name="User" />
         <module name="Transaction" />
-        <module name="Customer" />
         <module name="Eureka" />
+        <module name="Customer" />
         <module name="Gateway" />
       </profile>
     </annotationProcessing>
