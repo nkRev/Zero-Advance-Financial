@@ -9,6 +9,8 @@
         <option value="$PROJECT_DIR$/Eureka/pom.xml" />
         <option value="$PROJECT_DIR$/Gateway/pom.xml" />
         <option value="$PROJECT_DIR$/Customer/pom.xml" />
+        <option value="$PROJECT_DIR$/Employee/pom.xml" />
+        <option value="$PROJECT_DIR$/Transactions/pom.xml" />
       </list>
     </option>
   </component>

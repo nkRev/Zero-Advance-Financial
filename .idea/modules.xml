@@ -3,9 +3,11 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Customer/Customer.iml" filepath="$PROJECT_DIR$/Customer/Customer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Employee/Employee.iml" filepath="$PROJECT_DIR$/Employee/Employee.iml" />
       <module fileurl="file://$PROJECT_DIR$/Eureka/Eureka.iml" filepath="$PROJECT_DIR$/Eureka/Eureka.iml" />
       <module fileurl="file://$PROJECT_DIR$/Gateway/Gateway.iml" filepath="$PROJECT_DIR$/Gateway/Gateway.iml" />
       <module fileurl="file://$PROJECT_DIR$/Transaction/Transaction.iml" filepath="$PROJECT_DIR$/Transaction/Transaction.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Transactions/Transactions.iml" filepath="$PROJECT_DIR$/Transactions/Transactions.iml" />
       <module fileurl="file://$PROJECT_DIR$/User/User.iml" filepath="$PROJECT_DIR$/User/User.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Zero-Advance-Financial.iml" filepath="$PROJECT_DIR$/.idea/Zero-Advance-Financial.iml" />
       <module fileurl="file://$PROJECT_DIR$/Zero-Advance-Financials/Zero-Advance-Financials.iml" filepath="$PROJECT_DIR$/Zero-Advance-Financials/Zero-Advance-Financials.iml" />
